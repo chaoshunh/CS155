@@ -175,7 +175,8 @@ If the dataset is not linearly separable, then the PLA will never converge. As d
 
 \section{Problem 4}
 \subsection{Problem A}
-We define a zeroth coordinate for the weight vector \textbf{w} and for each training point \textbf{x}. Every former \textbf{x} = $(x_1, x_2, x_3.....)$ is instead $(1, x_1, x_2, x_3.....)$ and the weight vector now includes a $w_0$ term: $(w_0, w_1, w_2.....)$. The $w_0$ is the bias term, and the relation between $w_0$ and b is $w_0 = b \div i$
+We define a zeroth coordinate for the weight vector \textbf{w} and for each training point \textbf{x}. Every former \textbf{x} = $(x_1, x_2, x_3.....)$ is instead $(1, x_1, x_2, x_3.....)$ and the weight vector now includes a $w_0$ term: $(w_0, w_1, w_2.....)$. The $w_0$ is the bias term.
+
 
 \subsection{Problem B}
 We want the derivative of the squared loss function for linear regression with respect to the vector \textbf{w}.
@@ -191,18 +192,41 @@ See src.
 
 
 \subsection{Problem D}
-As the starting point is changed, the weights take a different path to convergence but they reach the same minimum. The starting point has some influence on how quickly the weights converge, though it seems like they all converge about as quickly. Dataset 2 has certain points that converge more quickly than others.
+As the starting point is changed, the weights take a different path to convergence but they reach the same minimum. The starting point has some influence on how quickly the weights converge, though it seems like they all converge about as quickly. Dataset 2 has certain points that converge more quickly than others. The points further from the minimum initially descend faster.
 
 \subsection{Problem E}
 
 \begin{figure}[H]
-	\makebox[\textwidth][c]{\includegraphics[width=4in]{DifferentEta.png}}
-	\vspace{-15mm}
-	\caption{Visualization of non-separable data set.}
+	\makebox[\textwidth][c]{\includegraphics[width=5.5in]{DifferentEta.png}}
+	\caption{Loss function across epochs for different etas.}
 \end{figure}
 
 The squared loss falls much more rapidly for a larger eta. A larger eta leads to a faster convergence to a solution.
- 
+
+\subsection{Problem F}
+The final weight vector is \textbf{w} = (-5.94224311, 3.94373944, -11.72398258, 8.78553623) and the bias term is -0.227205913368.
+
+\subsection{Problem G}
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=5.5in]{4g.png}}
+	\caption{Loss function across epochs for different etas.}
+\end{figure}
+
+The value of the loss function falls much more rapidly for larger etas.
+
+\subsection{Problem H}
+The final weight vector from the analytical method is \textbf{w} = (-5.99157048, 4.0150995, -11.93325972, 8.99061096) and the bias term is -0.316442513271. These values are similar to but not exactly the same as the weights from stochastic gradient descent.
+
+\subsection{Problem I}
+If you have a dataset with a large number of dimensions, computing the solution analytically may be more computationally expensive. Taking the inverse of a large, multidimensional matrix and summing the product of \textbf{x} and $\textbf{x}^T$
+
+
+
+\subsection{Problem J}
+One technique could be to keep track of how much the loss function changes from one epoch to the next. When the loss function only falls by a small amount (below some threshold value) then the algorithm can be stopped.
+
+\subsection{Problem K}
+The weight vector for the SGD produces monotonically better solutions as more iterations happen. In contrast, the perceptron can have intermediate weight vectors that have a higher loss than previous weight vectors.
 
 
 

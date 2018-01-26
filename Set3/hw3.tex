@@ -217,8 +217,64 @@ $$\frac{1-\epsilon_t}{\epsilon_t} exp(-\alpha_t) = exp(\alpha_t)$$
 $$\frac{1-\epsilon_t}{\epsilon_t} = exp(2\alpha_t)$$
 $$\alpha_t = \frac{1}{2}ln(\frac{1-\epsilon_t}{\epsilon_t})$$
 
+\newpage
+\subsection{Problem G}
+
+%gradient boosting
+\underline{Gradient Boosting}
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=4in]{gb_train.png}}
+	\vspace{-10mm}
+	\caption{Training dataset for gradient boosting}
+\end{figure}
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=4.2in]{gb_test.png}}
+	\vspace{-10mm}
+	\caption{Test dataset for gradient boosting}
+\end{figure}
 
 
+
+%Adaptive Boosting
+\underline{Adaboost}
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=4in]{ab_train.png}}
+	\vspace{-10mm}
+	\caption{Training dataset for adaptive boosting.}
+\end{figure}
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=4.2in]{ab_test.png}}
+	\vspace{-10mm}
+	\caption{Testing dataset for adaptive boosting}
+\end{figure}
+
+
+
+\subsection{Problem H}
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=4.8in]{gb_clf.png}}
+	\vspace{-10mm}
+	\caption{Learning curve for gradient boosting}
+\end{figure}
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{\includegraphics[width=4.8in]{adaboost_clf.png}}
+	\vspace{-10mm}
+	\caption{Learning curve for adaptive boosting.}
+\end{figure}
+
+The training loss for gradient boosting starts at about 0.35 and falls steadily towards zero as the number of classifiers increases. The test loss for gradient boosting begins at about the same level, falls to a minimum of about 0.2 when there are about 40 classifiers, and then increases as the number of classifiers increases. As the number of classifiers increases, overfitting occurs. The curves are fairly smooth.
+
+The training loss for adaboost starts at about 0.32 and falls to 0.21 as the number of classifiers rises to about 50. The training loss levels off and then falls again when the number of classifiers reaches 150. After that, the training loss falls quickly to 0.12, and then falls more slowly towards 0.1. The test loss behaves similarly. The test loss begins at about 0.37, falls to 0.25 at 50 classifiers, stabilizes, then falls after 150 classifiers. Afterwards the test loss stabilizes at about 0.2. The adaboost curve is much more jagged and has sharper variations than the gradient boosting curve.
+
+
+\subsection{Problem I}
+The final training error of gradient boosting is about 0 and the final testing error is 0.26. The final training error of Adaboost is about 0.1 and the testing error is 0.18. The adaptive boosting algorithm performed better on the classification dataset.
+
+\subsection{Problem J}
 
 
 

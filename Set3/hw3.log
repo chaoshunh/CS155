@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JAN 2018 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JAN 2018 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -712,19 +712,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<1ai.png, id=103, 857.2025pt x 126.4725pt>
+<1ai.png, id=119, 857.2025pt x 126.4725pt>
 File: 1ai.png Graphic file (type png)
  <use 1ai.png>
 Package pdftex.def Info: 1ai.png used on input line 77.
 (pdftex.def)             Requested size: 505.89pt x 74.63934pt.
 
-<1aii.png, id=105, 524.96124pt x 357.335pt>
+<1aii.png, id=121, 524.96124pt x 357.335pt>
 File: 1aii.png Graphic file (type png)
  <use 1aii.png>
 Package pdftex.def Info: 1aii.png used on input line 83.
 (pdftex.def)             Requested size: 303.53377pt x 206.6165pt.
 
-<1b.png, id=106, 412.54124pt x 349.305pt>
+<1b.png, id=122, 412.54124pt x 349.305pt>
 File: 1b.png Graphic file (type png)
  <use 1b.png>
 Package pdftex.def Info: 1b.png used on input line 91.
@@ -736,62 +736,99 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./1ai.png> <./1aii.png>] <1ci.png, id=116, 161.60374pt x 213.79875pt>
+[2 <./1ai.png> <./1aii.png>] <1ci.png, id=132, 161.60374pt x 213.79875pt>
 File: 1ci.png Graphic file (type png)
 
 <use 1ci.png>
 Package pdftex.def Info: 1ci.png used on input line 99.
 (pdftex.def)             Requested size: 144.54pt x 191.23286pt.
  [3 <./1b.png> <./1ci.png>]
-<1cii.png, id=125, 651.43375pt x 449.68pt>
+<1cii.png, id=141, 651.43375pt x 449.68pt>
 File: 1cii.png Graphic file (type png)
  <use 1cii.png>
 Package pdftex.def Info: 1cii.png used on input line 111.
 (pdftex.def)             Requested size: 303.53377pt x 209.53131pt.
  [4 <./1cii.png>]
-<2a.png, id=133, 433.62pt x 289.08pt>
+<2a.png, id=149, 433.62pt x 289.08pt>
 File: 2a.png Graphic file (type png)
  <use 2a.png>
 Package pdftex.def Info: 2a.png used on input line 126.
 (pdftex.def)             Requested size: 361.34999pt x 240.91116pt.
 
-<2b.png, id=134, 433.62pt x 289.08pt>
+<2b.png, id=150, 433.62pt x 289.08pt>
 File: 2b.png Graphic file (type png)
  <use 2b.png>
 Package pdftex.def Info: 2b.png used on input line 135.
 (pdftex.def)             Requested size: 303.53377pt x 202.36343pt.
  [5 <./2a.png>]
-<2d.png, id=143, 433.62pt x 289.08pt>
+<2d.png, id=159, 433.62pt x 289.08pt>
 File: 2d.png Graphic file (type png)
  <use 2d.png>
 Package pdftex.def Info: 2d.png used on input line 148.
 (pdftex.def)             Requested size: 361.34999pt x 240.91116pt.
  [6 <./2b.png>]
-<2e.png, id=150, 433.62pt x 289.08pt>
+<2e.png, id=166, 433.62pt x 289.08pt>
 File: 2e.png Graphic file (type png)
  <use 2e.png>
 Package pdftex.def Info: 2e.png used on input line 156.
 (pdftex.def)             Requested size: 303.53377pt x 202.36343pt.
  [7 <./2d.png> <./2e.png>]
-[8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
+[8] [9] [10] <gb_train.png, id=192, 571.13374pt x 482.80376pt>
+File: gb_train.png Graphic file (type png)
+
+<use gb_train.png>
+Package pdftex.def Info: gb_train.png used on input line 226.
+(pdftex.def)             Requested size: 289.07999pt x 244.37018pt.
+ <gb_test.png, id=193, 557.08125pt x 493.845pt>
+File: gb_test.png Graphic file (type png)
+
+<use gb_test.png>
+Package pdftex.def Info: gb_test.png used on input line 232.
+(pdftex.def)             Requested size: 303.53377pt x 269.08366pt.
+ <ab_train.png, id=194, 516.93124pt x 476.78125pt>
+File: ab_train.png Graphic file (type png)
+
+<use ab_train.png>
+Package pdftex.def Info: ab_train.png used on input line 242.
+(pdftex.def)             Requested size: 289.07999pt x 266.63919pt.
+ [11 <./gb_train.png> <./gb_test.png>]
+<ab_test.png, id=203, 518.93875pt x 482.80376pt>
+File: ab_test.png Graphic file (type png)
+ <use ab_test.png>
+Package pdftex.def Info: ab_test.png used on input line 248.
+(pdftex.def)             Requested size: 303.53377pt x 282.41327pt.
+
+<gb_clf.png, id=204, 564.1075pt x 386.44376pt>
+File: gb_clf.png Graphic file (type png)
+ <use gb_clf.png>
+Package pdftex.def Info: gb_clf.png used on input line 258.
+(pdftex.def)             Requested size: 346.89621pt x 237.64676pt.
+ [12 <./ab_train.png> <./ab_test.png>] <adaboost_clf.png, id=213, 566.115pt x 4
+09.53pt>
+File: adaboost_clf.png Graphic file (type png)
+
+<use adaboost_clf.png>
+Package pdftex.def Info: adaboost_clf.png used on input line 264.
+(pdftex.def)             Requested size: 346.89621pt x 250.95023pt.
+ [13 <./gb_clf.png> <./adaboost_clf.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
  (./hw3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
 Package rerunfilecheck Info: File `hw3.out' has not changed.
-(rerunfilecheck)             Checksum: 062329424D5D0CD29A82A701E83B4E04;1315.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
+(rerunfilecheck)             Checksum: BD6626D8FAA3DF47F49D497A081A55BE;1552.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 9025 strings out of 493089
- 130315 string characters out of 6134842
+ 9073 strings out of 493089
+ 131041 string characters out of 6134842
  235566 words of memory out of 5000000
- 12334 multiletter control sequences out of 15000+600000
+ 12362 multiletter control sequences out of 15000+600000
  12822 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,778b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,778b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -801,10 +838,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hw3.pdf (10 pages, 279466 bytes).
+Output written on hw3.pdf (14 pages, 604133 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

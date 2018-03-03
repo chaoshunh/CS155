@@ -1,0 +1,41 @@
+
+
+Loop over iterations
+    #E step find marginals
+    Loop over x
+        alphas = get_alphas
+        betas = get_betas
+        Loop over jlen(x)
+            Loop over a
+                find numerator
+                add to sum on bottom for a specific j
+                do nothing for j = 0
+                    Loop over b
+                        add to denominator for j
+                        calculate numerator for second marginal
+            divide numerator by den for 1st marginal
+            divide numerator by den for 2nd marginal
+
+
+    #M step now update the parameters
+    #update the transition
+    loop over a
+        loop over b
+            for i in range(len(x)):
+                for j in range(M):
+                    do nothing for j == 0
+                    sum up the marginals and write to TM
+                    if b == 0 #do once for each b
+                        compute sum across i, j
+        divide by denominator
+    #update the emission
+    loop over a
+        loop over w
+            loop over i in N
+                loop over j in M
+                    sum if xij = w P(yij = a)
+                    sum up denominator if w == 0
+        divide by denominator
+
+        loop over w
+

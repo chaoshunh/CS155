@@ -1,0 +1,21 @@
+#generate y value
+y_seed = random()
+if y_seed < P(Happy?):
+	y = Yes
+else:
+	y = No
+
+#generate x values
+x_seed1 = random()
+if x_seed1 < P(Grade = C|y):
+	x1 = C
+else:
+	x1 = A
+
+x_seed2 = random()
+if x_seed2 < P(Year = Senior|y):
+	x2 = Senior
+else:
+	x2 = Freshman
+
+return (y, x1, x2)
